@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "doNotList": false,
+    "givenName": "Bamboo_Drep",
+    "motivations": "- As investors, community managers, developers, operators, teachers - our team has the full perspective to believe in the great values ​​that the Voltaire era of Cardano brings. \n- However, if it is not shaped properly by those who are passionate about Cardano in the early stages, this empowerment will go in a bad direction, destroying the values ​​of trust that we have built for so long. Therefore, we decided to become DRep upright to protect the core values ​​of the Cardano.",
+    "objectives": "- As a community development team, we have spread the belief in the power of decentralization in shaping a fair, transparent and free community based on the philosophies of Cardano. With many years of community management, we ensure that every voice in the Cardano community is heard and expressed with the most appropriate votes.\n- TreViet has members who are ambassadors of famous projects on Cardano along with a passion for Defi, we will support proposals that help create a strong ecosystem from innovative and creative ideas to shape Cardano as the most secure, reliable and efficient platform.",
+    "paymentAddress": "addr1q8gn5x8j09m4xm7gflq0d8v0hm94fx5vfc5n28950a4am4xdw65dpf948ws30ykgdn43yf34ducrtl2ju24am8ulx2aqu6vgnj",
+    "qualifications": "1. Community Administrator investing in the Cardano ecosystem: Overseeing community activities, organizing online sessions to share knowledge about the system and fostering a network of technology enthusiasts from Cardano.\n2. Stake pool operators - BBO.\n3. Building an Asset Management App on Cardano - Bamboo App.\n4. Be an ambassador for projects on Cardano.\n5. Blockchain Certified Associate (CBCA) from the Cardano Foundation.",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "Website dedicated to providing information about the Cardano ecosystem",
+        "uri": "https://ada-bamboo.com/"
+      },
+      {
+        "@type": "Link",
+        "label": "Bamboo App - Makes it easy to get involved in the Cardano Ecosystem",
+        "uri": "https://bambooapp.xyz/"
+      },
+      {
+        "@type": "Link",
+        "label": "Community sharing news on the Cardano ecosystem",
+        "uri": "https://t.me/duantrencardano"
+      },
+      {
+        "@type": "Link",
+        "label": "Provide Cardano content on Youtube",
+        "uri": "https://www.youtube.com/@ADA-Bamboo"
+      },
+      {
+        "@type": "Identity",
+        "label": "Twitter",
+        "uri": "https://x.com/BambooLabsXYZ"
+      }
+    ]
+  }
+}
